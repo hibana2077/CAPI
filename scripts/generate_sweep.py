@@ -4,7 +4,7 @@ import stat
 
 # Sweep Parameters
 capi_dims = [32, 64, 128]
-lambda_lies = [1.0, 0.5, 0.1, 0.05]
+lambda_lies = [0.1, 0.08, 0.05, 0.01]
 gammas = [2.0, 1.0, 0.5]
 
 # Configuration

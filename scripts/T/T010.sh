@@ -21,4 +21,4 @@ python3 -u src/main.py \
   --dataset cub_200_2011 --download --model resnet50 --pretrained \
   --epochs 300 \
   --lambda_lie 0.08 \
-  --seed 42 >> "T009.log" 2>&1
+  --seed 42 >> "T010.log" 2>&1

@@ -1,12 +1,12 @@
 # Table
 
-| Method | Seed | Acc |
-| --- | --- | --- |
-| Baseline (λ=0.0) | 42 | 76.77% |
-| CAPI (λ=0.1) | 42 | 77.55% |
-| Baseline (λ=0.0) | 43 | 77.05% |
-| CAPI (λ=0.1) | 43 | 77.55% |
-| Baseline (λ=0.0) | 44 | 76.80% |
-| CAPI (λ=0.1) | 44 | 77.20% |
-| Baseline (λ=0.0) | 45 | 77.30% |
-| CAPI (λ=0.1) | 45 | 77.60% |
+| Method | Backbone | Seed | Acc |
+| --- | --- | --- | --- |
+| Baseline (λ=0.0)  | resnet50 | 42 | 76.77% |
+| CAPI (λ=0.1) | resnet50 | 42 | 77.55% |
+| Baseline (λ=0.0) | resnet50 | 43 | 77.05% |
+| CAPI (λ=0.1) | resnet50 | 43 | 77.55% |
+| Baseline (λ=0.0) | resnet50 | 44 | 76.80% |
+| CAPI (λ=0.1) | resnet50 | 44 | 77.20% |
+| Baseline (λ=0.0) | resnet50 | 45 | 77.30% |
+| CAPI (λ=0.1) | resnet50 | 45 | 77.60% |

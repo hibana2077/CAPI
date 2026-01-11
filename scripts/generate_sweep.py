@@ -5,7 +5,7 @@ import stat
 # Sweep Parameters
 capi_dims = [32, 64, 128]
 lambda_lies = [0.1, 0.08, 0.05, 0.01]
-gammas = [2.0, 1.0, 0.5]
+gammas = [1.0, 0.5, 0.1]
 
 # Configuration
 folder_name = "SWEEP" # 指定資料夾名稱

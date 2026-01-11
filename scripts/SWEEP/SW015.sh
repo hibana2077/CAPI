@@ -21,6 +21,6 @@ python3 -u src/main.py \
   --dataset stanford_cars --download --model resnet50 --pretrained \
   --epochs 300 \
   --capi_dim 64 \
-  --lambda_lie 1.0 \
-  --gamma 0.5 \
+  --lambda_lie 0.1 \
+  --gamma 0.1 \
   --seed 42 >> "SW015.log" 2>&1

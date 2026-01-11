@@ -63,21 +63,26 @@ $$
 ---
 
 ## 5. Plug-and-Play 與部署友善（NeurIPS-style 的賣點）
+
 ### 5.1 架構無關（architecture-agnostic）
+
 - 任何輸出 feature 的 backbone 都能接（ResNet / ConvNeXt / ViT…）。
 - CAPI 不改 backbone 的主 forward 邏輯，只在訓練時額外算一個投影與 loss。
 
 ### 5.2 幾乎零推論成本（inference-friendly）
+
 - **推論時可以完全不使用 CAPI 分支**：只保留原本分類 head 的 logits。
 - CAPI 是訓練期的 inductive bias / regularizer，不是部署依賴。
 
 ### 5.3 計算成本極低
+
 - 核心運算為線性層 + reshape + $A - A^\top$ 與少量矩陣乘加。
 - 不需要 SVD / eigendecomposition / log-map 等昂貴幾何運算。
 
 ---
 
-## 6. 論文貢獻（用「一致性 + 分析」替代「SOTA」）
+## 6. 論文貢獻
+
 我們將貢獻寫成以下三點（符合 NeurIPS 風格）：
 
 1. **CAPI：一個可插拔的 Lie algebra 正則化介面**  

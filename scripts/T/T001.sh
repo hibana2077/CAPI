@@ -8,7 +8,7 @@
 #PBS -l wd
 #PBS -l storage=scratch/yp87
 
-RUN_TAG="baseline"
+RUN_TAG="capi"
 
 module load cuda/12.6.2
 
@@ -20,5 +20,5 @@ cd ../..
 python3 -u src/main.py \
   --dataset cub_200_2011 --download --model resnet50 --pretrained \
   --epochs 300 \
-  --lambda_lie 0.0 \
-  --seed 42 >> "T000.log" 2>&1
+  --lambda_lie 1.0 \
+  --seed 42 >> "T001.log" 2>&1

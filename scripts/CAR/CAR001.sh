@@ -20,5 +20,7 @@ cd ../..
 python3 -u src/main.py \
   --dataset stanford_cars --download --model resnet50 --pretrained \
   --epochs 300 \
-  --lambda_lie 0.1 \
+  --lambda_lie 0.05 \
+  --gamma 0.5 \
+  --capi_dim 64 \
   --seed 43 >> "CAR001.log" 2>&1

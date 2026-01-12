@@ -1,5 +1,4 @@
-# CAPI：Compact Algebraic Projection Interface  
-**一個可插拔、低成本的 Lie Algebra 正則化，用於幾何感知的細粒度視覺分類（FGVC）**
+# CAPI：Compact Lie Algebra Regularization for Geometry-Aware Fine-Grained Recognition
 
 > 定位（走 NeurIPS 風格，而非衝榜 SOTA）：  
 > 我們主張 **「一致性增益 + 泛化性 + 幾乎不增加推論成本」**，用跨資料集、跨 backbone、跨 seed 的證據與完整分析來支持貢獻，而不是只在單一設定硬拼排行榜。
